@@ -17,6 +17,7 @@
     "@types/jest": "27.4.1",
     "babel-loader": "8.2.3",
     "concurrently": "7.0.0",
+    "cors": "^2.8.5",
     "cross-env": "7.0.3",
     "eslint": "8.10.0",
     "fkill-cli": "7.1.0",
@@ -30,14 +31,13 @@
   },
   "dependencies": {
     "axios": "0.26.0",
-    "cors": "2.8.5",
     "express": "4.17.3"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Workintech/FSWeb-S5-Challenge.git"
   },
-  "jest":{
+  "jest": {
     "testEnvironment": "jsdom"
   }
 }
